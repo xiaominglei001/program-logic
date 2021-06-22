@@ -24,6 +24,7 @@ public class Line extends Shape {
 	
 	@Override
 	public void draw() {
+		super.draw();
 		System.out.println("draw line from "
 				+ start.toString()+" to "+end.toString()
 				+ ",using color "+super.getColor());
